@@ -1,0 +1,2 @@
+# RESUMEN DE GPs
+initial_query = "SELECT gpdb.gp.gp_id, jugadores.nombre, gpdb.gp.dia, gpdb.gp.hora, gpdb.gp.mbd_id, gpdb.gp.mensaje, gpdb.gp.valido, gpdb.gp.gpv FROM gpdb.gp JOIN gpdb.jugadores ON gpdb.gp.jugador_id = jugadores.jugador_id ORDER BY gpdb.gp.gp_id ASC"
